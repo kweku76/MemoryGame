@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 500px;
+}
+
+html {
+  background: rgb(37, 208, 217);
+  background: radial-gradient(circle, rgba(37, 208, 217, 1) 0%, rgba(63, 94, 251, 1) 100%);
+}
+
+img {
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  cursor: pointer;
+  border-radius: 8px;
+}
