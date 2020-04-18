@@ -21,3 +21,8 @@ img {
   cursor: pointer;
   border-radius: 8px;
 }
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
